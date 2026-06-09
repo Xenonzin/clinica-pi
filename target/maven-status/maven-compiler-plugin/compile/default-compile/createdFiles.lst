@@ -1,0 +1,13 @@
+br\com\clinica\PacienteDAO.class
+br\com\clinica\Medico.class
+br\com\clinica\ConsultaDAO.class
+br\com\clinica\TelaConsulta.class
+br\com\clinica\TelaMedico.class
+br\com\clinica\Consulta.class
+br\com\clinica\App.class
+br\com\clinica\TelaPaciente.class
+br\com\clinica\TelaMenu.class
+br\com\clinica\Conexao.class
+br\com\clinica\MedicoDAO.class
+br\com\clinica\TelaLogin.class
+br\com\clinica\Paciente.class

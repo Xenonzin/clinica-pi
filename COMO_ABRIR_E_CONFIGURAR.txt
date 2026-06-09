@@ -1,0 +1,40 @@
+ETAPA 4 - SISTEMA DE CLÍNICA COM MYSQL
+
+1. Abra o MySQL Workbench.
+2. Abra o arquivo banco_clinica_pi.sql.
+3. Execute o script inteiro.
+4. Ele criará o banco clinica_pi com dados iniciais.
+
+CONFIGURAR SENHA DO MYSQL
+
+Abra a classe:
+src/main/java/br/com/clinica/Conexao.java
+
+Se seu MySQL tiver senha, altere:
+private static final String SENHA = "";
+
+Exemplo:
+private static final String SENHA = "123456";
+
+COMO ABRIR NO NETBEANS
+
+1. Extraia o ZIP.
+2. Abra o NetBeans.
+3. File > Open Project.
+4. Escolha a pasta ClinicaPI_Etapa4_MySQL.
+5. Aguarde o Maven baixar o mysql-connector-j.
+6. Clique em Run.
+
+Classe principal:
+br.com.clinica.App
+
+LOGIN
+Digite qualquer usuário e senha, desde que não estejam vazios.
+
+FUNCIONALIDADES COM BANCO
+- Cadastrar paciente no MySQL.
+- Listar pacientes do MySQL.
+- Cadastrar médico no MySQL.
+- Listar médicos do MySQL.
+- Agendar consulta no MySQL.
+- Listar consultas do MySQL.
